@@ -21,7 +21,7 @@ BLACK = (0, 0, 0)
 PURPLE = (128, 0, 128)
 ORANGE = (255, 165, 0)
 GREY = (128, 128, 128)
-TURQUOISE = (64, 224, 208)
+NEON = (57,255,20)
 class Node:
     def __init__(self, row, col, width, total_rows):
         self.row = row
@@ -65,7 +65,7 @@ class Node:
         self.color = BLACK
         
     def make_end(self):
-        self.color = TURQUOISE
+        self.color = NEON
     
     def make_path(self):
         self.color = PURPLE
